@@ -5,15 +5,28 @@
 }
 
 header{
-    background-color: aqua;
-    color: salmon;
+    background-color: orange;
+    color: black;
     display: flex;
     justify-content: space-between;
+
+    padding: 20px 25px;
 }
 
 body{
     font-family: sans-serif;
+    padding: 20px 25px;
+    background-image: url('fundo.jpeg');
 }
+
+main{
+    background-color: white;
+}
+
+img{
+        width: 20%;
+        height: 20%;
+ }
 
 nav ul{
     list-style: none;
@@ -21,3 +34,26 @@ nav ul{
     gap: 20px;
 }
 
+nav a{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+nav a:hover{
+    color: white;
+}
+
+/*Responsividade com celulares*/
+@media(max-width:768px){
+    header{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+    }
+}
