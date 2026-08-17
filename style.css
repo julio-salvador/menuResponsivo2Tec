@@ -2,31 +2,42 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  
 }
 
 header{
-    background-color: orange;
+    background-color: rgb(255, 173, 21);
     color: black;
     display: flex;
     justify-content: space-between;
-
+    
     padding: 20px 25px;
 }
 
 body{
     font-family: sans-serif;
     padding: 20px 25px;
-    background-image: url('fundo.jpeg');
+    background-color:rgb(87, 10, 10);
 }
 
 main{
     background-color: white;
+    text-indent: 2em;
+    
+}
+
+h2{
+        text-align: center;
 }
 
 img{
-        width: 20%;
-        height: 20%;
- }
+    max-width: 20%;
+    height: auto;
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
 
 nav ul{
     list-style: none;
@@ -56,4 +67,11 @@ nav a:hover{
         align-items: center;
         font-size: 20px;
     }
+
+    img{
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
 }
+
